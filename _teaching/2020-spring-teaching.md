@@ -1,10 +1,10 @@
 ---
 title: "Operating Systems"
 collection: teaching
-type: "Undergraduate andGraduate Course"
+type: "Undergraduate and Graduate Course"
 permalink: /teaching/2020-spring-teaching
 venue: "Department of Computer Science, College of William and Mary"
-date: 2015-01-01
+date: 2020-01-01
 location: "Williamsburg, VA"
 ---
 
