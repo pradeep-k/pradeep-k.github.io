@@ -10,15 +10,15 @@ redirect_from:
 
 I joined the [Department of Computer Science](https://www.wm.edu/as/computerscience/), [College of William & Mary](https://www.wm.edu/) (The second oldest university in the USA, and the public Ivy) in the Fall 2019 as an Assistant Professor. I completed my PhD in Computer Engineering at the George Washington University (GWU). My research interest is at the intersection of Data Science and Cyber-infrastructure, developing an eco-system to plug the emerging storage and compute hardwares in the system software stack of data analytics. This roughly translates to IO, File and Storage Systems, Memory sub-system, Data Management, and High-Performance Data Analytics with a focus on emerging Big Data applications such as Graph Processing, Stream Analytics, Machine Learning etc. I completed my Bachelor of Technology degree from Indian Institute of Technology, Dhanbad, India in the year 2007.
 
-Current Research Projects
-======
-I am leading the **Data Lab** in the Department of Computer Science, College of William and Mary. Everything that we do here are related to huge data that is a norm today. If you are interested in doing research on any aspect of data, that will accelerate the data-led innovation, do not hesitate to contact me. Following projects are under active research in the Data Lab, but a lot more are still in the drawing board phase:
+## Current Research Projects
+
+I am leading the **[Data Lab](https://github.com/the-data-lab)** in the Department of Computer Science, College of William and Mary. Everything that we do here are related to huge data that is a norm today. If you are interested in doing research on any aspect of data, that will accelerate the data-led innovation, do not hesitate to contact me. Following projects are under active research in the Data Lab, but a lot more are still in the drawing board phase:
 - **Unified Graph Analytics at Scale:** A distributed Graph analytics engine that is envisioned to be a unified framework for running graph batch and stream analytics both in evolving and static graphs. This framework should be able to handle diverse classes of graphs, including social graph, property graph, provenance graph, RDF or semantic graph etc. See our conference and journal version of GraphOne to get an idea of our baseline single node system.
 - **Graph Machine Learning:** Accuracy and Scalability both are big problems for running machine learning in the graph type data. Recent advances in deep learning has seen great accuracy and scalability on image and sequence data, but not on graph data. Graph data model is envisioned to be an universal data model to represent non-image, non-sequence type data. Hence, running deep learning on graph data can be very useful to identify important information, and take the frontier of machine learning to new heights. We are exploring our strengths in graph domain to identify opportunity for accuracy and scalability in a distributed setup, such as GPUs hosted in a cluster. The framework is envisioned to be a graph learning system.
 - **Storage Systems Research:** Data explosion has led to many advances in data-led discovery, and 21st century is all about data. Can you imagine how those data will be analyzed, if they can't fit in memory. This requires intelligent Storage system. Our team has in-depth academic and industrial expertise in handling large data utilizing the NoSQL data stores and combining them with the recent hardware technologies, such as NVMe Flash drives, Solid-State-Drives (SSDs) and Non-volatile or persistent Memories (NVMs). We have proposed changes in end-to-end storage stack starting from user-space data-store to kernel level modules. Our current work is exploring NVM for emerging applications, as well as working on modifying the storage stack to find a rightful place for NVM. Do you have an idea that can utilize the persistency property of NVM in a better way, you will be eagerly welcomed.
 
-Publication
-======
+## Publication
+
 Following list are those papers that have been published or are about to get publish. Feel free to send me an email for the paper or the code. There are many exciting works that are in the pipeline that will be submitted soon to top tier conferences and journals. If you are interested in knowing more about those papers, send me an email to initiate the discussion. * denotes the top-tier venues, that are extremely competitive to get in.
 
 **\*[ACM Transcation on Storage]** Pradeep Kumar, Howie Huang. _GraphOne: A Data Store for Real-time Analytics on Evolving Graphs._ Extended Version of FAST'19 Paper, Under Review.
@@ -48,6 +48,6 @@ Do you Think that today's IO stack can deliver the raw performance, if multiple 
 
 Storing persistent data in NVM is not safe against software induced corruptions as it used to be if stored in disks. Do know why, and what will change if we store data in NVM instead of disk. This paper discusses the unknown safety conventions that is implicitly followed when data moves from DRAM to Disks. But that convention is broken due to presence of NVM. Our techniques bring those conventions back to protect your persistent data in NVM from any software induced corruption.
 
-Industry Experience
-======
+## Industry Experience
+
 I have over 6 years of industry research and development experience in the broader Systems area. During my PhD, I interned in IBM Research. Prior to my PhD, I worked as File System/Operating System kernel developer, and Distributed Systems Programmer for cluster-mode storage systems in NetApp Inc. at their Bangalore (India) research and development center. Prior to that I worked at Huawei technologies at their Bangalore, Shanghai and Shenzhen center.
