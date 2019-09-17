@@ -27,10 +27,10 @@ Work experience
   * IBM Almaden Research Center, San Jose, CA
   * Duties included: Stateful Containers
 
-*  2009-2013: File System Developer
+* 2009-2013: File System Developer
   * NetApp Inc.
   * Duties included: Flash Pool, Distributed Storage
 
-*  2007-2009: Compiler Developer
+* 2007-2009: Compiler Developer
   * Huawei Technologies.
   * Duties included: Compiler and Runtime developement for TTCN/ASN Programming Language
