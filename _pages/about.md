@@ -10,7 +10,7 @@ redirect_from:
 
 I am an assistant professor in the [Department of Computer Science](https://www.wm.edu/as/computerscience/), [William & Mary](https://www.wm.edu/) (The second oldest university in the USA, and the public Ivy). I completed my PhD in Computer Engineering at the George Washington University (GWU). My research interest is at the intersection of Data Science and Cyber-infrastructure, developing an eco-system to plug the emerging storage and compute hardwares in the system software stack of data analytics. This roughly translates to IO, File and Storage Systems, Memory sub-system, Data Management, and High-Performance Data Analytics with a focus on emerging Big Data applications such as Graph Processing, Stream Analytics, Machine Learning etc. I completed my Bachelor of Technology degree from Indian Institute of Technology, Dhanbad, India in the year 2007.
 
-***`If you are interested in doing research on any aspect of data that will accelerate the data-led innovation, do not hesitate to send me an email with your CV to initiate the discussion. Full scholarships are available to deserving PhD students. Admission is formally managed by the Department. See the [link](https://www.wm.edu/as/computerscience/graduate/admission/index.php) for admission process.`***
+***If you are interested in doing research on any aspect of data that will accelerate the data-led innovation, do not hesitate to send me an email with your CV to initiate the discussion. Full scholarships are available to deserving PhD students. Admission is formally managed by the Department. See the [link](https://www.wm.edu/as/computerscience/graduate/admission/index.php) for admission process.***
 
 ## Current Research Projects
 
