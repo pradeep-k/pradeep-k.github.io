@@ -25,8 +25,8 @@ I am leading the **[Data Lab](https://github.com/the-data-lab)** in the Departme
 
 Following papers either have been published or are about to be published. Feel free to send me an email for the paper or the code. There are many exciting works that are in the pipeline that will be submitted soon to top tier conferences and journals. If you are interested in knowing more about those papers, send me an email to initiate the discussion. * denotes the top-tier venues, that are extremely competitive to get in.
 
-**\*[ACM Transcation on Storage]** Pradeep Kumar, Howie Huang. _GraphOne: A Data Store for Real-time Analytics on Evolving Graphs._ Extended Version of FAST'19 Paper, Accepted on 20th September, 2019.  
-**\*[USENIX FAST'19]** Pradeep Kumar, Howie Huang. _GraphOne: A Data Store for Real-time Analytics on Evolving Graphs._ [Blog][PDF][PPT][Code]
+**\*[ACM Transcation on Storage]** Pradeep Kumar, Howie Huang. _GraphOne: A Data Store for Real-time Analytics on Evolving Graphs._ Extended Version of FAST'19 Paper, Accepted on 20th September, 2019. Send me an email for the paper. 
+**\*[USENIX FAST'19]** Pradeep Kumar, Howie Huang. _GraphOne: A Data Store for Real-time Analytics on Evolving Graphs._ [Blog] [[PDF](https://www.usenix.org/system/files/fast19-kumar.pdf)] [[PPT](https://www.usenix.org/sites/default/files/conference/protected-files/fast19_slides_kumar.pdf)] [[Code](https://github.com/the-data-lab/GraphOne)]
 
 GraphOne is first ever system that can perform diverse set of analytics on the same data-store, and replaces the current practice of deploying specialized systems for each type of analytics. The above two works propose following contributions:
 - **GraphView Abstraction:** Unification of Batch and Stream analytics from same data-store under one system using Graph Views Abstraction: We have separated the graph ingestion from the graph analytics path. So, each analytics can focus on itself without worrying about concurrent data ingestion or any other analytics. So, there is only one global data-store, but many types of analytics can run on top it. We are able to beat all the specialized graph systems, as well as their ingestion rates.
@@ -34,7 +34,7 @@ GraphOne is first ever system that can perform diverse set of analytics on the s
 - **Concurrent Real-time Analytics:** Due to the separation of computation from data management, we are now able to run multiple analytics of same or diverse types concurrently without copying the graph data, yes one copy of graph data, and multiple independent analytics.
 
 **[IEEE HPEC'17]** Yang Hu, Pradeep Kumar, Guy Swope (Raytheon), H. Howie Huang. _TriX: Triangle Counting at Extreme Scale._ **Finalist, 2017 IEEE/Amazon/DARPA Graph Challenge**  
-**\*[SC'16]** Pradeep Kumar, Howie Huang. G-Store: High-Performance Graph Store for Trillion-Edge Processing. [Blog] [PDF](https://pradeep-k.github.io/files/G-Store-SC16.pdf)[PPT](https://pradeep-k.github.io/files/G-Store-SC16-PPT.pdf) [Code]
+**\*[SC'16]** Pradeep Kumar, Howie Huang. G-Store: High-Performance Graph Store for Trillion-Edge Processing. [Blog] [[PDF](https://pradeep-k.github.io/files/G-Store-SC16.pdf)] [[PPT](https://pradeep-k.github.io/files/G-Store-SC16-PPT.pdf)] [[Code](https://github.com/the-data-lab/gstore)]
 
 The above two works present graph computing with extreme scale. G-Store is first ever system to demonstrate graph computing at trillion-edge scale within a commodity server. Many techniques make this possible:  
 - **SNB Format:** A new format which is space efficient (up to 8x space saving, less disk IO) as well as hardware cache friendly (algorithmic metadata takes advantage of L2 caches).
@@ -42,11 +42,11 @@ The above two works present graph computing with extreme scale. G-Store is first
 - **Graph Caching:** G-Store is first ever system to propose a graph specific caching policy.
 - **Slide-Cache-Rewind Scheduler:** Takes advantage of IO and compute overlap, as well as utilizing even the last drop of data available in the memory before throwing them away.
 
-**\*[USENIX ATC'17]** Pradeep Kumar, Howie Huang. _Falcon: Scaling IO Performance in Multi-SSD Volumes._ [Blog] [PDF] [PPT] [Code]
+**\*[USENIX ATC'17]** Pradeep Kumar, Howie Huang. _Falcon: Scaling IO Performance in Multi-SSD Volumes._ [Blog] [[PDF](https://www.usenix.org/system/files/conference/atc17/atc17-kumar.pdf)] [[PPT](https://www.usenix.org/sites/default/files/conference/protected-files/atc17_slides_kumar.pdf)] [[Code](https://github.com/the-data-lab/falcon)]
 
 Do you Think that today's IO stack can deliver the raw performance, if multiple SSDs are combined in a volume. The answer is no, because of the per-volume convention that is hard-coded in the IO stack. We have proposed Falcon IO Stack that introduces a new convention of per-drive IO processing, that introduces a new layer in the IO stack to bring the best of each drivers that are part of the volume. Further, the Falcon IO Stack optimizes its merging, sorting, and dispatch process to make it future ready, where we have shown that our new IO stack can saturate the newer NVMe Flash.
 
-**[IEEE Big Data Congress'17]** Pradeep Kumar, Howie Huang. _SafeNVM: A Non-Volatile Memory Store with Thread-Level Page Protection._ [Blog] [PDF](https://pradeep-k.github.io/files/SafeNVM.pdf) [PPT](https://pradeep-k.github.io/files/SafeNVM-ppt.pdf) [Code]
+**[IEEE Big Data Congress'17]** Pradeep Kumar, Howie Huang. _SafeNVM: A Non-Volatile Memory Store with Thread-Level Page Protection._ [Blog] [[PDF](https://pradeep-k.github.io/files/SafeNVM.pdf)] [[PPT](https://pradeep-k.github.io/files/SafeNVM-ppt.pdf)] [Code]
 
 Storing persistent data in NVM is not safe against software induced corruptions as it used to be if stored in disks. Do know why, and what will change if we store data in NVM instead of disk. This paper discusses the unknown safety conventions that is implicitly followed when data moves from DRAM to Disks. But that convention is broken due to presence of NVM. Our techniques bring those conventions back to protect your persistent data in NVM from any software induced corruption.
 
