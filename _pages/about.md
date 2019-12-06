@@ -25,7 +25,7 @@ I am leading the **[Data Lab](https://github.com/the-data-lab)** in the Departme
 
 Following papers either have been published or are about to be published. Feel free to send me an email for the paper or the code. There are many exciting works that are in the pipeline that will be submitted soon to top tier conferences and journals. If you are interested in knowing more about those papers, send me an email to initiate the discussion. * denotes the top-tier venues, that are extremely competitive to get in.
 
-**\*[ACM Transcation on Storage]** Pradeep Kumar, Howie Huang. _GraphOne: A Data Store for Real-time Analytics on Evolving Graphs._ Extended Version of FAST'19 Paper, Accepted on 20th September, 2019. Send me an email for the paper.  
+**\*[ACM Transcation on Storage]** Pradeep Kumar, Howie Huang. _GraphOne: A Data Store for Real-time Analytics on Evolving Graphs._ Extended Version of FAST'19 Paper, Accepted on 20th September, 2019. [[PDF](https://pradeep-k.github.io/files/GraphOne.pdf)][[Code](https://github.com/the-data-lab/GraphOne)].  
 **\*[USENIX FAST'19]** Pradeep Kumar, Howie Huang. _GraphOne: A Data Store for Real-time Analytics on Evolving Graphs._ [Blog] [[PDF](https://www.usenix.org/system/files/fast19-kumar.pdf)] [[PPT](https://www.usenix.org/sites/default/files/conference/protected-files/fast19_slides_kumar.pdf)] [[Code](https://github.com/the-data-lab/GraphOne)]
 
 GraphOne is first ever system that can perform diverse set of analytics on the same data-store, and replaces the current practice of deploying specialized systems for each type of analytics. The above two works propose following contributions:
