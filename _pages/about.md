@@ -12,7 +12,7 @@ I am an assistant professor in the [Department of Computer Science](https://www.
 
 ***If you are interested in doing research on any aspect of data that will accelerate the data-led innovation, do not hesitate to send me an email with your CV to initiate the discussion. Full scholarships are available to deserving PhD students. Admission is formally managed by the Department. See the [link](https://www.wm.edu/as/computerscience/graduate/admission/index.php) for admission process.***
 
-***W&M Undergraduates: Funding is now available for W&M undergraduate researchers with strong systems background, and who are highly motivated to do research. [Graph Challenge](http://graphchallenge.mit.edu/challenges) (serveral new problems added this year) might be a good place to do a cool work on graph data analytics on static, streaming data, as well as on deep neural networks.***
+***W&M Undergraduates: Funding is now available for W&M undergraduate researchers with strong systems background, and who are highly motivated to do research. Funding for summer work is available, and may be extended to Fall and Spring semesters based on progress. [Graph Challenge](http://graphchallenge.mit.edu/challenges) (serveral new problems added this year) might be a good place to do a cool work on graph data analytics on static, streaming data, as well as on deep neural networks.***
 
 ## Current Research Projects
 
@@ -36,7 +36,7 @@ GraphOne is first ever system that can perform diverse set of analytics on the s
 - **Data Visibility abstraction:** Fine-grained ingestion is always costly. So, GraphOne moves the cost of fine-grained ingestion from read-path to write path, implying that if your analytics does not required to be performed in fine-grained ingested data, you don't have to worry about additional cost associated with fine-grained ingestion. But if your analytics care for it, than only your analytics will pay the cost, not the others who don't need it. We then propose optimization to reduce this cost. This helps us to support very high arrival rate of graph data at fine granularity, but offers analytics performance at the cost of batched updates.
 - **Concurrent Real-time Analytics:** Due to the separation of computation from data management, we are now able to run multiple analytics of same or diverse types concurrently without copying the graph data, yes one copy of graph data, and multiple independent analytics.
 
-**\*[SC'16]** Pradeep Kumar, Howie Huang. _G-Store: High-Performance Graph Store for Trillion-Edge Processing._ [Blog] [[PDF](https://pradeep-k.github.io/files/G-Store-SC16.pdf)] [[PPT](https://pradeep-k.github.io/files/G-Store-SC16-PPT.pdf)] [[Code](https://github.com/the-data-lab/gstore)]
+**\*[SC'16]** Pradeep Kumar, Howie Huang. _G-Store: High-Performance Graph Store for Trillion-Edge Processing._ [Blog] [[PDF](https://pradeep-k.github.io/files/G-Store-SC16.pdf)] [[PPT](https://pradeep-k.github.io/files/G-Store-SC16-PPT.pdf)] [[Code](https://github.com/the-data-lab/gstore)]  
 **[IEEE HPEC'17]** Yang Hu, Pradeep Kumar, Guy Swope (Raytheon), H. Howie Huang. _TriX: Triangle Counting at Extreme Scale._ [[PDF](https://pradeep-k.github.io/files/TriX-HPEC17.pdf)]  [[PPT](https://pradeep-k.github.io/files/TriX-HPEC17-ppt.pdf)] **Finalist, 2017 IEEE/Amazon/DARPA Graph Challenge**  
 
 The above two works present graph computing with extreme scale. G-Store is first ever system to demonstrate graph computing at trillion-edge scale within a commodity server. Many techniques make this possible:  
