@@ -12,7 +12,7 @@ I am an assistant professor in the [Department of Computer Science](https://www.
 
 ***If you are interested in doing research on any aspect of data that will accelerate the data-led innovation, do not hesitate to send me an email with your CV to initiate the discussion. Full scholarships are available to deserving PhD students. Admission is formally managed by the Department. See the [link](https://www.wm.edu/as/computerscience/graduate/admission/index.php) for admission process.***
 
-***W&M Undergraduates: Funding is now available for W&M undergraduate researchers with strong systems background, and who are highly motivated to do research. Funding may be extended to Fall and Spring semesters based on your progress. [Graph Challenge](http://graphchallenge.mit.edu/challenges) (serveral new problems added this year) might be a good place to do a cool work on graph data analytics on static, streaming data, as well as on deep neural networks.***
+***W&M Undergraduates: Funding is now available for W&M undergraduate researchers with strong systems background, and who are highly motivated to do research. [Graph Challenge](http://graphchallenge.mit.edu/challenges) (serveral new problems added this year) might be a good place to do a cool work on graph data analytics on static, streaming data, as well as on deep neural networks.***
 
 ## Current Research Projects
 
