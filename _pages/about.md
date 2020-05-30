@@ -68,5 +68,5 @@ I have over 6 years of industry research and development experience in the broad
 - Student Volunteer, ACM/IEEE SC’16
 
 ## Funding
-- Summer Research Grant, William \& Mary, 2020
-- William \& Mary Startup Grant
+- Summer Research Grant, William & Mary, 2020
+- William & Mary Startup Grant
