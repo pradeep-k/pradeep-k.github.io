@@ -12,7 +12,7 @@ I am an assistant professor in the [Department of Computer Science](https://www.
 
 ***If you are interested in doing research on any aspect of data that will accelerate the data-led innovation, do not hesitate to send me an email with your CV to initiate the discussion. Full scholarships are available to deserving PhD students. Admission is formally managed by the Department. See the [link](https://www.wm.edu/as/computerscience/graduate/admission/index.php) for admission process.***
 
-***W&M Undergraduates: Funding is now available for W&M undergraduate researchers with strong systems background, and who are highly motivated to do research. [Graph Challenge](http://graphchallenge.mit.edu/challenges) (serveral new problems added this year) might be a good place to do a cool work on graph data analytics on static, streaming data, as well as on deep neural networks.***
+***W&M Undergraduates: Funding is now available for W&M undergraduates with strong systems background, and who are highly motivated to do research.***
 
 ## Current Research Projects
 
@@ -59,7 +59,6 @@ I have over 6 years of industry research and development experience in the broad
 
 ## Community Engagement and Services
 - NSF Panelist, Computer and Network Systems Division.
-
 - Workshop and Tutorial Co-Chair, IEEE ACSOS’20
 - PC Member, Usenix HotEdge’20
 - External Reviewer, Usenix FAST’20
@@ -69,5 +68,5 @@ I have over 6 years of industry research and development experience in the broad
 - Student Volunteer, ACM/IEEE SC’16
 
 ## Funding
-- Summer Research Grant, William and Mary, 2020 (W&M Undergraduates are welcome to work)
-- William and Mary Startup Grant
+- Summer Research Grant, William \& Mary, 2020
+- William \& Mary Startup Grant
