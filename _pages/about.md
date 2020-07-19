@@ -59,6 +59,8 @@ I have over 6 years of industry research and development experience in the broad
 
 ## Community Engagement and Services
 - NSF Panelist, Computer and Network Systems Division.
+- PC Member, IEEE TPDS Special Section on Parallel and Distributed Computing Techniques for AI, ML, and DL, 2020
+- PC Member, IEEE 32nd International Symposium on Computer Architecture and High Performance Computing (SBAC-PAD 2020)
 - Workshop and Tutorial Co-Chair, IEEE ACSOS’20
 - PC Member, Usenix HotEdge’20
 - External Reviewer, Usenix FAST’20
