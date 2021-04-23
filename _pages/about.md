@@ -8,25 +8,27 @@ redirect_from:
   - /about.html
 ---
 
-I am an assistant professor in the [Department of Computer Science](https://www.wm.edu/as/computerscience/), [William & Mary](https://www.wm.edu/) (The second oldest university in the USA, and the public Ivy). My research interest is at the intersection of Data Science and Cyber-infrastructure, developing an eco-system to plug the emerging storage and compute hardwares in the system software stack of data analytics to tackle the scalability. This roughly translates to Distributed Systems, IO, File and Storage Systems, Memory sub-system, Data Management, and High-Performance Data Analytics with a focus on emerging Big Data applications such as Graph Processing, Stream Analytics, Machine Learning etc. 
+I am an assistant professor in the [Department of Computer Science](https://www.wm.edu/as/computerscience/), [William & Mary](https://www.wm.edu/) (The second oldest university in the USA, and the public Ivy). My research interest is at the intersection of Data Science and Computer Systems. My research group (the data lab) develops eco-systems, platforms, systems and libraries for Data Science aplications, while plugging the emerging storage and compute hardwares in the system software stack of the data science to tackle the scalability, performance and data safety. This roughly translates to Distributed Systems, IO, File and Storage Systems, Memory sub-system, Data Management, and High-Performance Data Analytics with a focus on emerging Big Data applications such as Graph Processing, Stream Analytics, Deep Learning etc. 
 
 ***If you are interested in doing research on any aspect of data that will accelerate the data-led innovation, do not hesitate to send me an email with your CV to initiate the discussion. Full scholarships are available to deserving PhD students. Admission is formally managed by the Department. See the [link](https://www.wm.edu/as/computerscience/graduate/admission/index.php) for admission process.***
 
-***W&M Undergraduates: Funding is now available for W&M undergraduates with strong systems background, and who are highly motivated to do research.***
+***W&M Undergraduates: Funding is now available for W&M undergraduates with strong Computer Systems or Data Science background, and who are highly motivated to do work at their intersection.***
 
 ## Current Research Projects
 
 I am leading the **[Data Lab](https://github.com/the-data-lab)** in the Department of Computer Science, William and Mary. Everything that we do here are related to huge data that is a norm today. Following projects are under active research in the Data Lab, but a lot more are still in the drawing board phase:
-- **Unified Graph Analytics at Scale:** A distributed Graph analytics engine that is envisioned to be a unified framework for running graph batch and stream analytics both in evolving and static graphs. This framework should be able to handle diverse classes of graphs, including social graph, property graph, provenance graph, RDF or semantic graph etc. See our conference and journal version of GraphOne to get an idea of our baseline single node system.
-- **Machine Learning on Graphs:** Accuracy and Scalability both are big problems for running machine learning in the graph type data. Recent advances in deep learning has seen great accuracy and scalability on image and sequence data, but not on graph data. Graph data model is envisioned to be an universal data model to represent non-image, non-sequence type data. Hence, running deep learning on graph data can be very useful to identify important information, and take the frontier of machine learning to new heights. We are exploring our strengths in graph domain to identify opportunity for accuracy and scalability in a distributed setup. The framework is envisioned to be a graph learning system.
+- **Deep Learning on Sparse Data and Models (Graphs):** Accuracy and Scalability both are big problems for running machine learning in the graph type data. Recent advances in deep learning has seen great accuracy and scalability on image and sequence data, but not on graph data. Graph data model is envisioned to be an universal data model to represent non-image, non-sequence type data. Hence, running deep learning on graph data can be very useful to identify important information, and take the frontier of machine learning to new heights. We are exploring our strengths in graph domain to identify opportunity for accuracy and scalability in a distributed setup. The framework is envisioned to be a graph learning system. **A very basic prototype is available** for handling sparsity as a first class citizen in data and model both, and a Paper is under review now. More works are in progress now. 
+- **Unified Graph Analytics at Scale:** A distributed Graph analytics engine that is envisioned to be a unified framework for running graph batch and stream analytics both in evolving and static graphs. This framework should be able to handle diverse classes of graphs, including social graph, property graph, provenance graph, RDF or semantic graph etc. It should provide data analysis on various types of windows, and non-windows efficiently, with similar programming experience. See our conference and journal version of GraphOne to get an idea of our baseline single node system. **We now have a distributed version of GraphOne available. We now also support windows**. A paper is under review now, while more work is in progress.
 - **Storage Systems Research:** Data explosion has led to many advances in data-led discovery, and 21st century is all about data. Can you imagine how those data will be analyzed, if they can't fit in memory. This requires intelligent Storage system. Our team has in-depth academic and industrial expertise in handling large data utilizing the NoSQL data stores and combining them with the recent hardware technologies, such as NVMe Flash drives, Solid-State-Drives (SSDs) and Non-volatile or persistent Memories (NVMs). We have proposed changes in end-to-end storage stack starting from user-space data-store to kernel level modules. Our current work is exploring NVM for emerging applications, as well as working on modifying the storage stack to find a rightful place for NVM. Do you have an idea that can utilize the persistency property of NVM in a better way, you will be eagerly welcomed.
 - **Cloud Infrastructure and Serverless Computing:** Data led discovery requires huge amount computation power. Cloud infrastructure plays a big role in providing those infrastructure. Recent advances in container technologies has enabled a quick deployment of such applications. Unfortunately, the support for stateful services (they handle data) are not sufficient, and requires more research.
-- **Bring your own Research Problems:** The Data Lab welcomes any research questions that you are excited about in the borader field of Systems, Data Analytics or Machine Learning.
+- **Bring your own Research Problems:** The Data Lab welcomes any research questions that you are excited about in the borader field of Systems, Data Science or analytics.
 
 
 ## Publication
 
 Following papers either have been published or are about to be published. Feel free to send me an email for the paper or the code. There are many exciting works that are in the pipeline that will be submitted soon to top tier conferences and journals. If you are interested in knowing more about those papers, send me an email to initiate the discussion. * denotes the top-tier venues, that are extremely competitive to get in.
+
+**Two papers are in review phase** in top tier conferences. Congrates Yidong and Dibbya for submission.
 
 **\*[ACM Transcation on Storage'20]** Pradeep Kumar, Howie Huang. _GraphOne: A Data Store for Real-time Analytics on Evolving Graphs._ ACM Transaction on Storage, Volume 15, Number 4, pp 1-40. January 2020. [[LINK](https://dl.acm.org/doi/abs/10.1145/3364180)][[Code](https://github.com/the-data-lab/GraphOne)].  
 **\*[USENIX FAST'19]** Pradeep Kumar, Howie Huang. _GraphOne: A Data Store for Real-time Analytics on Evolving Graphs._ [Blog] [[PDF](https://www.usenix.org/system/files/fast19-kumar.pdf)] [[PPT](https://www.usenix.org/sites/default/files/conference/protected-files/fast19_slides_kumar.pdf)] [[Code](https://github.com/the-data-lab/GraphOne)]
@@ -58,16 +60,21 @@ Storing persistent data in NVM is not safe against software induced corruptions 
 I have over 6 years of industry research and development experience in the broader Systems area. During my PhD, I interned in IBM Research at their storage research group. Prior to my PhD, I worked as File System/Operating System kernel developer, and Distributed Systems Programmer for cluster-mode storage systems in NetApp Inc. at their Bangalore (India) research and development center. Prior to that I worked at Huawei technologies at their Bangalore, Shanghai and Shenzhen center.
 
 ## Community Engagement and Services
-- NSF Panelist, Computer and Network Systems Division.
+- NSF Panelist, Computer and Network Systems Division, 2020, 2021.
+- PC Member, ICDCS, 2021
 - PC Member, IEEE TPDS Special Section on Parallel and Distributed Computing Techniques for AI, ML, and DL, 2020
 - PC Member, IEEE 32nd International Symposium on Computer Architecture and High Performance Computing (SBAC-PAD 2020)
 - Workshop and Tutorial Co-Chair, IEEE ACSOS’20
 - PC Member, Usenix HotEdge’20
-- External Reviewer, Usenix FAST’20
+- External Reviewer, Usenix FAST’20, OOPSLA'20
 - Volunteer, NSF Aspiring CSR PIs Workshop, 2018
 - Figured in Best Reviewers list based on peer feedback system, Shadow PC Eurosys’18
 - Sub-reviewer in ICDCS’18, NAS’18, BDCAT’18
 - Student Volunteer, ACM/IEEE SC’16
+
+## Students
+- Yidong Gong, PhD Student since Summer, 2020
+- Dibbya Saha, PhD Student Since Spring, 2021 
 
 ## Funding
 - Summer Research Grant, William & Mary, 2020
