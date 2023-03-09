@@ -14,6 +14,8 @@ I am an assistant professor in the [Department of Computer Science](https://www.
 
 ***W&M Undergraduates: Funding is now available for W&M undergraduates with strong Computer Systems or Data Science background, and who are highly motivated to do work at their intersection.***
 
+***I am teaching a new course of Systems for Deep Learning in the Fall, 2023. Current MS and PhD students, please register if you want to know the current state of the art. We will be using GraphPY as an education tool.***
+
 ## Current Research Projects
 
 I am leading the **[Data Lab](https://github.com/the-data-lab)** in the Department of Computer Science, William and Mary. Everything that we do here are related to huge data that is a norm today. Following projects are under active research in the Data Lab, but a lot more are still in the drawing board phase:
@@ -28,7 +30,12 @@ I am leading the **[Data Lab](https://github.com/the-data-lab)** in the Departme
 
 Following papers either have been published or are about to be published. Feel free to send me an email for the paper or the code. There are many exciting works that are in the pipeline that will be submitted soon to top tier conferences and journals. If you are interested in knowing more about those papers, send me an email to initiate the discussion. * denotes the top-tier venues, that are extremely competitive to get in.
 
-**Two papers are in review phase** in top tier conferences. Congrates Yidong and Dibbya for submission.
+
+**G-Bench** was accepted by GraPL'23. Congratulations Sarah!!!
+
+We are about to Make **GraphPY**, a Platform for Systems research and Education, open-source. If you are a systems researcher and want to use the platform to teach deep learning, please reach out to us. Congratulations Yidong for putting 2 years on this effort, which makes writing systems code independent of DL framework-- A great break-through that cuts the learning curve, that we do not need to know the internals of DL Frameworks, such as Pytorch and Tensorflow. The paper will be submitted to SOSP'23. 
+
+Have we broken the **Memory Wall**, may be not, but it seems we have punctured it. We will keep you updated with this.
 
 **\*[ACM Transcation on Storage'20]** Pradeep Kumar, Howie Huang. _GraphOne: A Data Store for Real-time Analytics on Evolving Graphs._ ACM Transaction on Storage, Volume 15, Number 4, pp 1-40. January 2020. [[LINK](https://dl.acm.org/doi/abs/10.1145/3364180)][[Code](https://github.com/the-data-lab/GraphOne)].  
 **\*[USENIX FAST'19]** Pradeep Kumar, Howie Huang. _GraphOne: A Data Store for Real-time Analytics on Evolving Graphs._ [Blog] [[PDF](https://www.usenix.org/system/files/fast19-kumar.pdf)] [[PPT](https://www.usenix.org/sites/default/files/conference/protected-files/fast19_slides_kumar.pdf)] [[Code](https://github.com/the-data-lab/GraphOne)]
@@ -61,7 +68,7 @@ I have over 6 years of industry research and development experience in the broad
 
 ## Community Engagement and Services
 - NSF Panelist, Computer and Network Systems Division, 2020, 2021.
-- PC Member, ICDCS, 2021
+- PC Member, IPDPS'23, HPDC'23, ICDCS'21 ICDCS'22
 - PC Member, IEEE TPDS Special Section on Parallel and Distributed Computing Techniques for AI, ML, and DL, 2020
 - PC Member, IEEE 32nd International Symposium on Computer Architecture and High Performance Computing (SBAC-PAD 2020)
 - Workshop and Tutorial Co-Chair, IEEE ACSOS’20
@@ -74,8 +81,10 @@ I have over 6 years of industry research and development experience in the broad
 
 ## Students
 - Yidong Gong, PhD Student since Summer, 2020
-- Dibbya Saha, PhD Student Since Spring, 2021 
+- Sarah Revillar, MS Thesis Student, Since Fall, 2022
+- Saima Afrin, PhD Student Since Spring, 2023 
 
 ## Funding
+- NSF CRII Award, 2022 (Awarded in March, 2023). Thank you NSF.
 - Summer Research Grant, William & Mary, 2020
 - William & Mary Startup Grant
