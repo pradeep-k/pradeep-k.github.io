@@ -31,7 +31,7 @@ I am leading the **[Data Lab](https://github.com/the-data-lab)** in the Departme
 The following papers either have been published or are about to be published. Feel free to send me an email for the paper or the code. Many exciting works are in the pipeline that will be submitted soon to top-tier conferences and journals. If you are interested in knowing more about those papers, send me an email to initiate the discussion. * denotes the top-tier venues, that are extremely competitive to get in.
 
 
-**G-Bench** was accepted by GraPL'23. Congratulations Sarah!!!
+**G-Bench** was accepted by GrAPL'23. Congratulations Sarah!!!
 
 We have made **[GraphPY](https://github.com/the-data-lab/deep-codegen)**, a Platform for Systems Research and Education, open-source. If you are a systems researcher and want to use the platform to teach deep learning, please reach out to us. Congratulations Yidong for putting 2 years into this effort, which makes writing systems code independent of DL framework-- A great break-through that cuts the learning curve, that we do not need to know the internals of DL Frameworks, such as Pytorch and TensorFlow. 
 
