@@ -33,7 +33,9 @@ The following papers either have been published or are about to be published. Fe
 
 **G-Bench** was accepted by GrAPL'23. Congratulations Sarah!!!
 
-We have made **[GraphPY](https://github.com/the-data-lab/deep-codegen)**, a Platform for Systems Research and Education, open-source. If you are a systems researcher and want to use the platform to teach deep learning, please reach out to us. Congratulations Yidong for putting 2 years into this effort, which makes writing systems code independent of DL framework-- A great break-through that cuts the learning curve, that we do not need to know the internals of DL Frameworks, such as Pytorch and TensorFlow. 
+We have made **[Deep-CodeGen](https://github.com/the-data-lab/deep-codegen)**, a Platform for Systems Research and Education, open-source. If you are a systems researcher and want to use the platform to teach deep learning, please reach out to us. Congratulations Yidong for putting 2 years into this effort, which makes writing systems code independent of DL framework-- A great break-through that cuts the learning curve, that we do not need to know the internals of DL Frameworks, such as Pytorch and TensorFlow. 
+
+**[Arxiv'24]** Yidong Gong, Arnab Tarafder, Saima Afrin, Pradeep Kumar. _Single-GPU GNN Systems: Traps and Pitfalls._ [[Link](https://arxiv.org/pdf/2402.03548.pdf)].
 
 **[GrAPL'23]** Pradeep Kumar, Sarah Revillar. _G-Bench: Fair Benchmarking to Support Innovations in Streaming Graph Systems._ 2023 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW).[[Code](https://github.com/the-data-lab/gbench)].
 
