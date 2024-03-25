@@ -40,7 +40,7 @@ We have made **[Deep-CodeGen](https://github.com/the-data-lab/deep-codegen)**, a
 
 **[Arxiv'24]** Yidong Gong, Arnab Tarafder, Saima Afrin, Pradeep Kumar. _Single-GPU GNN Systems: Traps and Pitfalls._ [[Link](https://arxiv.org/pdf/2402.03548.pdf)].
 
-**[HPDC'24]** Yidong Gong, Pradeep Kumar. _GNNOne: A Unified System Optimizations for GNN Kernels._ To Appear in The ACM International Symposium on High-Performance Parallel and Distributed Computing, 2024.
+**[HPDC'24]** Yidong Gong, Pradeep Kumar. _GNNOne: A Unified System Optimizations for GNN Kernels._ To Appear in The ACM International Symposium on High-Performance Parallel and Distributed Computing, 2024. [Acceptance Rate = 17%]
 
 **[GrAPL'23]** Pradeep Kumar, Sarah Revillar. _G-Bench: Fair Benchmarking to Support Innovations in Streaming Graph Systems._ 2023 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW).[[Code](https://github.com/the-data-lab/gbench)].
 
